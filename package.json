@@ -1,6 +1,6 @@
 {
   "name": "secure-html-to-pdf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTML to PDF converter that uses phantomjs",
   "engines": {
     "node": ">=4.0.0"
@@ -18,9 +18,9 @@
   "author": "Adam Bourg",
   "license": "MIT",
   "devDependencies": {
-    "standard": "^5.1.1",
+    "standard": "^16.0.3",
     "tap-spec": "^2.2.0",
-    "tape": "^3.4.0"
+    "tape": "^5.2.2"
   },
   "optionalDependencies": {
     "phantomjs-prebuilt": "^2.1.4"
@@ -42,6 +42,7 @@
   "homepage": "https://github.com/Stacked-Development/secure-html-to-pdf",
   "dependencies": {
     "dompurify": "^2.0.8",
-    "jsdom": "^16.1.0"
+    "jsdom": "^16.1.0",
+    "secure-html-to-pdf": "^1.0.0"
   }
 }
