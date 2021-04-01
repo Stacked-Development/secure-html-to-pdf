@@ -1,4 +1,10 @@
 # node-html-pdf
+This is a fork of the HTML to PDF module that uses phantomjs. Basically there is a set of well known <a href="https://npmjs.com/advisories/1095">'Arbitrary File Read' issues</a> that are patched in this version. It was forked from the <a href="https://github.com/418sec/node-html-pdf">418 Secure</a> Github, and will be used to publish to NPM registry. 
+
+## Why not use the Chrome web driver or puppeteer method to convert PDFs? 
+
+Well, for me, my client uses the node-html-pdf module, so patching it and updating it made sense because then I could still use this code, use it in a bunch of places. Plus with Puppeteer, [while you can use it on the server](https://reverentgeek.com/create-pdfs-with-node-js-and-puppeteer/), there are lots of reported [issues](https://github.com/westmonroe/pdf-puppeteer/issues) with it and [it's](https://github.com/puppeteer/puppeteer/issues/3938) [performance](https://docs.browserless.io/blog/2019/05/03/improving-puppeteer-performance.html). 
+
 ## HTML to PDF converter that uses phantomjs
 ![image](examples/businesscard/businesscard.png)  
 [Example Business Card](examples/businesscard/businesscard.pdf)  
@@ -6,9 +12,6 @@
 
 [Example Receipt](http://imgr-static.s3-eu-west-1.amazonaws.com/order.pdf)
 
-## Changelog
-
-Have a look at the releases page: https://github.com/marcbachmann/node-html-pdf/releases
 
 ## Installation
 

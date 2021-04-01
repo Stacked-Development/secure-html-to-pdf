@@ -1,6 +1,6 @@
 {
-  "name": "html-pdf",
-  "version": "2.2.0",
+  "name": "secure-html-to-pdf",
+  "version": "1.0.0",
   "description": "HTML to PDF converter that uses phantomjs",
   "engines": {
     "node": ">=4.0.0"
@@ -15,7 +15,7 @@
   "scripts": {
     "test": "standard && tape test/index.js examples/*/test.js"
   },
-  "author": "Marc Bachmann",
+  "author": "Adam Bourg",
   "license": "MIT",
   "devDependencies": {
     "standard": "^5.1.1",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/marcbachmann/node-html-pdf.git"
+    "url": "git://github.com/Stacked-Development/secure-html-to-pdf.git"
   },
   "keywords": [
     "html",
@@ -37,9 +37,9 @@
     "nodejs"
   ],
   "bugs": {
-    "url": "https://github.com/marcbachmann/node-html-pdf/issues"
+    "url": "https://github.com/Stacked-Development/secure-html-to-pdf/issues"
   },
-  "homepage": "https://github.com/marcbachmann/node-html-pdf",
+  "homepage": "https://github.com/Stacked-Development/secure-html-to-pdf",
   "dependencies": {
     "dompurify": "^2.0.8",
     "jsdom": "^16.1.0"
