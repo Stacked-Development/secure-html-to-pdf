@@ -41,8 +41,6 @@
   },
   "homepage": "https://github.com/Stacked-Development/secure-html-to-pdf",
   "dependencies": {
-    "dompurify": "^2.0.8",
-    "jsdom": "^16.1.0",
-    "secure-html-to-pdf": "^1.0.0"
+    "sanitize-html": "^2.3.3"
   }
 }
